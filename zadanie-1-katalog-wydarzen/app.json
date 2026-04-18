@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Zadanie 1 - Katalog wydarzen",
+    "slug": "zadanie-1-katalog-wydarzen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

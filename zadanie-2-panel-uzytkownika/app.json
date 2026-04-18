@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Zadanie 2 - Panel uzytkownika",
+    "slug": "zadanie-2-panel-uzytkownika",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
