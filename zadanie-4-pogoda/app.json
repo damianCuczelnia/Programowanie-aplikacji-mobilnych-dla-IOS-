@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Pogoda tu i teraz",
+    "slug": "zadanie-4-pogoda",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "newArchEnabled": false,
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Aplikacja potrzebuje lokalizacji, aby pobrać aktualną pogodę dla Twojego miejsca."
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Aplikacja potrzebuje lokalizacji, aby pobrać aktualną pogodę dla Twojego miejsca."
+      }
+    },
+    "android": {
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    }
+  }
+}
