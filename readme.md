@@ -17,8 +17,6 @@ Plik zawiera zestaw zadań z podstaw języka JavaScript, obejmujących między i
 - wywołanie API z użyciem `fetch`,
 - podstawowe operacje na listach zadań, kontaktach i planie zajęć.
 
-To rozwiązanie odpowiada zadaniu:
-`https://online.wsb.edu.pl/mod/assign/view.php?id=771413`
 
 ### 2. `zadanie-1-katalog-wydarzen`
 Projekt mobilny przygotowany w **React Native + Expo**.  
@@ -38,8 +36,6 @@ Aplikacja przedstawia panel użytkownika i zawiera:
 - przełączanie motywu jasnego i ciemnego,
 - dodatkowe komunikaty i sekcję wylogowania.
 
-Powyższe projekty odpowiadają kolejnemu zadaniu:
-`https://online.wsb.edu.pl/mod/assign/view.php?id=772195`
 
 ### 4. `zadanie-3-api-posty`
 Projekt mobilny przygotowany w **React Native + Expo**.  
