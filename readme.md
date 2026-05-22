@@ -41,6 +41,18 @@ Aplikacja przedstawia panel użytkownika i zawiera:
 Powyższe projekty odpowiadają kolejnemu zadaniu:
 `https://online.wsb.edu.pl/mod/assign/view.php?id=772195`
 
+### 4. `zadanie-3-api-posty`
+Projekt mobilny przygotowany w **React Native + Expo**.  
+Aplikacja demonstruje komunikację z REST API i zawiera:
+- pobieranie postów z serwera metodą GET (`jsonplaceholder.typicode.com`),
+- wyświetlanie listy postów w komponencie `FlatList` (id, tytuł, treść),
+- stan ładowania z `ActivityIndicator`,
+- obsługę błędów sieciowych z opcją ponowienia,
+- formularz dodawania nowego posta (tytuł, treść, userId),
+- wysyłanie danych metodą POST w formacie JSON,
+- wyświetlanie odpowiedzi serwera po zapisie,
+- walidację pól formularza i czyszczenie po sukcesie.
+
 ## Technologie
 
 - JavaScript
@@ -69,6 +81,14 @@ lub
 
 ```bash
 cd zadanie-2-panel-uzytkownika
+npm install
+npm start
+```
+
+lub
+
+```bash
+cd zadanie-3-api-posty
 npm install
 npm start
 ```
