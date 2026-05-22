@@ -49,6 +49,18 @@ Aplikacja demonstruje komunikację z REST API i zawiera:
 - wyświetlanie odpowiedzi serwera po zapisie,
 - walidację pól formularza i czyszczenie po sukcesie.
 
+### 5. `zadanie-4-pogoda`
+Projekt mobilny przygotowany w **React Native + Expo**.  
+Aplikacja pokazuje aktualną pogodę i prognozę godzinową na 24h dla bieżącej lokalizacji i zawiera:
+- pobieranie lokalizacji GPS przez `expo-location`,
+- reverse geocoding – zamiana współrzędnych na nazwę miasta,
+- komunikację z bezpłatnym API Open-Meteo (temperatura, wiatr, wilgotność, opad),
+- prognozę godzinową na najbliższe 24 godziny z `FlatList`,
+- cache ostatniego wyniku w lokalnej bazie SQLite (`expo-sqlite`),
+- obsługę odmowy uprawnień do lokalizacji,
+- obsługę błędów sieciowych z wyświetleniem danych z cache,
+- ręczne odświeżanie danych.
+
 ## Technologie
 
 - JavaScript
@@ -87,6 +99,14 @@ lub
 cd zadanie-3-api-posty
 npm install
 npm start
+```
+
+lub
+
+```bash
+cd zadanie-4-pogoda
+npm install
+npx expo start --clear
 ```
 
 Możliwe jest także uruchomienie aplikacji poleceniami `npm run ios`, `npm run android` lub `npm run web`.
